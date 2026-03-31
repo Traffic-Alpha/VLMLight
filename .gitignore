@@ -10,6 +10,9 @@ __pycache__/
 *.out.xml
 *.output.xml
 
+# blender
+*.blend
+
 # C extensions
 *.so
 

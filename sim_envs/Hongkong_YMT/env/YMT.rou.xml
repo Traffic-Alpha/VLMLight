@@ -35,6 +35,10 @@
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <vType id="background" length="5.00" color="220,220,220" tau="1.0"/>
+    <vType id="police" length="5.00" color="blue" tau="1.0"/>
+    <vehicle id="police_start" type="police" depart="0.45" departLane="random">
+        <route edges="30658263#0 102640453#0"/>
+    </vehicle>
     <vehicle id="30658263#0__0__background.0" type="background" depart="0.84" departLane="random">
         <route edges="30658263#0 102640453#0"/>
     </vehicle>
@@ -149,7 +153,6 @@
     <vehicle id="102454134#0__0__background.8" type="background" depart="52.13" departLane="random">
         <route edges="102454134#0 102640432#0 102640432#3"/>
     </vehicle>
-    <vType id="police" length="5.00" color="blue" tau="1.0"/>
     <vehicle id="30658263#0__0__police.0" type="police" depart="53.45" departLane="random">
         <route edges="30658263#0 102640453#0"/>
     </vehicle>

@@ -6,14 +6,14 @@ LastEditors: WANG Maonan
 LastEditTime: 2025-07-30 13:39:00
 '''
 llm_cfg = {
-    'model': 'qwen3:4b',
+    'model': 'gemma3:4b',
     'model_type': 'oai',
     'model_server': 'http://localhost:11435/v1',
     'api_key': 'ollama',
 }
 
 llm_cfg_json = {
-    'model': 'qwen3:4b',
+    'model': 'gemma3:4b',
     'model_type': 'oai',
     'model_server': 'http://localhost:11435/v1',
     'api_key': 'ollama',
@@ -25,7 +25,7 @@ llm_cfg_json = {
 } # Language Model
 
 vlm_cfg = {
-    'model': 'qwen2.5vl:3b',
+    'model': 'gemma3:4b',
     'model_type': 'qwenvl_oai',
     'model_server': 'http://localhost:11435/v1',
     'api_key': 'ollama',
