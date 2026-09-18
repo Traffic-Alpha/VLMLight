@@ -17,6 +17,7 @@
 Official implementation of [VLMLight: Traffic Signal Control via Vision-Language Meta-Control and Dual-Branch Reasoning](https://www.arxiv.org/abs/2505.19486).
 
 ## 📌 News
+- **[September 2025]** 🎉 VLMLight accepted at NeurIPS 2025! [Paper Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/3849b5861dcaeaf4758eef0979a98cc6-Abstract-Conference.html)
 - **[June 2025]** Codebase open-sourced.
 - **[May 2025]** Initial preprint released on arXiv, [VLMLight](https://www.arxiv.org/abs/2505.19486).
 
@@ -160,14 +161,73 @@ python vlmlight_decision.py
 ```
 
 ## 📚 Citation
-If you find this work useful, please cite our papers:
+If you find our work useful in your research, we would be grateful if you could cite our papers:
 
+```bibtex
+@inproceedings{wang2025vlmlight,
+ author = {Wang, Maonan and Chen, Yirong and Pang, Aoyu and Cai, Yuxin and Chen, Chung Shue and Kan, Yuheng and Pun, Man On},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi and N. Chen},
+ pages = {39590--39621},
+ publisher = {Curran Associates, Inc.},
+ title = {{VLMLight}: Safety-Critical Traffic Signal Control via Vision-Language Meta-Control and Dual-Branch Reasoning Architecture},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2025/file/3849b5861dcaeaf4758eef0979a98cc6-Paper-Conference.pdf},
+ volume = {38},
+ year = {2025}
+}
 ```
-@article{wang2025vlmlight,
-  title={VLMLight: Traffic Signal Control via Vision-Language Meta-Control and Dual-Branch Reasoning},
-  author={Wang, Maonan and Chen, Yirong and Pang, Aoyu and Cai, Yuxin and Chen, Chung Shue and Kan, Yuheng and Pun, Man-On},
-  journal={arXiv preprint arXiv:2505.19486},
-  year={2025}
+
+You may also be interested in our earlier work on LLM- and RL-based traffic signal control (TSC):
+
+```bibtex
+@article{wang2024llm,
+  title={LLM-Assisted Light: Leveraging Large Language Model Capabilities for Human-Mimetic Traffic Signal Control in Complex Urban Environments},
+  author={Wang, Maonan and Pang, Aoyu and Kan, Yuheng and Pun, Man-On and Chen, Chung Shue and Huang, Bo},
+  journal={arXiv preprint arXiv:2403.08337},
+  year={2024}
+}
+
+@ARTICLE{pang2026illmtsc,
+  author={Pang, Aoyu and Wang, Maonan and Pun, Man-On and Chen, Chung Shue and Xiong, Xi},
+  journal={IEEE Transactions on Vehicular Technology}, 
+  title={iLLM-TSC: Integration Reinforcement Learning and Large Language Model for Traffic Signal Control Policy Improvement}, 
+  year={2026},
+  volume={75},
+  number={8},
+  pages={15762-15776},
+  doi={10.1109/TVT.2026.3674284}
+}
+
+@ARTICLE{wang2024unitsa,
+  author={Wang, Maonan and Xiong, Xi and Kan, Yuheng and Xu, Chengcheng and Pun, Man-On},
+  journal={IEEE Transactions on Vehicular Technology}, 
+  title={UniTSA: A Universal Reinforcement Learning Framework for V2X Traffic Signal Control}, 
+  year={2024},
+  volume={73},
+  number={10},
+  pages={14354-14369},
+  doi={10.1109/TVT.2024.3403879}
+}
+
+@ARTICLE{wang2024ccda,
+  author={Wang, Maonan and Chen, Yirong and Kan, Yuheng and Xu, Chengcheng and Lepech, Michael and Pun, Man-On and Xiong, Xi},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={Traffic Signal Cycle Control With Centralized Critic and Decentralized Actors Under Varying Intervention Frequencies}, 
+  year={2024},
+  volume={25},
+  number={12},
+  pages={20085-20104},
+  doi={10.1109/TITS.2024.3462153}
+}
+
+@ARTICLE{pang2024delaytsc,
+  author={Pang, Aoyu and Wang, Maonan and Chen, Yirong and Pun, Man-On and Lepech, Michael},
+  journal={IEEE Open Journal of Vehicular Technology}, 
+  title={Scalable Reinforcement Learning Framework for Traffic Signal Control Under Communication Delays}, 
+  year={2024},
+  volume={5},
+  pages={330-343},
+  doi={10.1109/OJVT.2024.3368693}
 }
 ```
 
