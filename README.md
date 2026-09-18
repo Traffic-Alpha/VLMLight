@@ -14,7 +14,7 @@
 
 ![VLMLight Framework](./assets/method/vlmlight_framework.png)
 
-Official implementation of [VLMLight: Traffic Signal Control via Vision-Language Meta-Control and Dual-Branch Reasoning](https://www.arxiv.org/abs/2505.19486).
+Official implementation of [VLMLight: Traffic Signal Control via Vision-Language Meta-Control and Dual-Branch Reasoning](https://proceedings.neurips.cc/paper_files/paper/2025/hash/3849b5861dcaeaf4758eef0979a98cc6-Abstract-Conference.html).
 
 ## 📌 News
 - **[September 2025]** 🎉 VLMLight accepted at NeurIPS 2025! [Paper Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/3849b5861dcaeaf4758eef0979a98cc6-Abstract-Conference.html)
